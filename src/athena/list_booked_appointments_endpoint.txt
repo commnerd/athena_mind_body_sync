@@ -1,0 +1,7 @@
+https://api.preview.platform.athenahealth.com/v1/{{ practiceid }}/appointments/booked?enddate=12%2F01%2F2024&startdate=12%2F01%2F2023
+
+{
+    date: 'MM/DD/YYYY',
+    pathentid: string,
+    starttime: 'HH:MM',
+}
