@@ -1,0 +1,8 @@
+version: '3'
+services:
+  syncd:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    volumes:
+      - ${PWD}/src:/project
